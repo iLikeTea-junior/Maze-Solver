@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "alg-practice"
+version = "0.1.0"
+description = ""
+authors = ["Saxion Associate Degree Software Development"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+colorama = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
