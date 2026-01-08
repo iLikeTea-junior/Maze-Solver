@@ -148,7 +148,6 @@ def solve(maze, jumps=False):
     if destination not in path_traces:
         return None
     
-    print(path_traces[destination][0])
     path = [destination]
     while destination != origin:
         destination = path_traces[destination][1] # type: ignore
